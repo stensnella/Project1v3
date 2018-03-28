@@ -1,0 +1,231 @@
+
+
+*{ box-sizing: border-box; }
+
+body, html {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+h1{
+	font-size: 2.5em;
+	color: black;
+}
+
+h2{
+  font-size: 1.5em;
+  color: white;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.1em;
+  font-weight: normal;
+
+}
+
+p { 
+	font-size: 1.1em;
+  color: white;
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none !important;
+}
+.topnav {
+  width: 100%;
+  position: fixed;
+  background-color: black;    
+  z-index: 3;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.topnav a:hover {
+  background-color: #8db3d8;
+  color: white;
+}
+
+
+.page-home{
+    position: relative;
+    padding: 10%;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://image.ibb.co/iLFCAS/back_extended.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color:  #8db3d8;
+}
+
+.page-intro {
+    text-align: center;
+    position: relative;
+    padding: 10%;
+    width: 100%;
+    height: 100%;
+    background-color:  #62a7e2;
+}
+
+
+.page-about{
+    position: relative;
+    padding: 10%;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://image.ibb.co/eiYD27/front.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    background-color:  #6dabe4;
+}
+
+.page-about h3 {
+  width: 80%;
+  margin: auto;
+}
+
+.page-app {
+    text-align: center;
+    position: relative;
+    padding: 10%;
+    width: 100%;
+    height: 100%;
+}
+
+iframe {
+
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+}
+
+.button {
+    
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50px;
+      background-color: black; 
+    color: white; 
+    border: none;
+    margin: auto;
+    position: relative;
+    display: block; 
+   
+      margin-top: 1.5em;
+}
+
+.button:hover, .button a :hover {
+    background-color: white;
+    color: black;
+    
+}
+
+
+#map {
+    width: 60%;
+   height: 60%;
+    margin: auto;
+}
+
+
+.responsive { 
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  width: 80%;
+  margin: auto;
+  padding: 2%;
+
+}
+
+.responsive img {
+  width: 40%;
+
+
+}
+
+.responsive p {
+  display: none;
+  width: 45%;
+  margin: auto;
+  font-size: 0.9em;
+  padding: 2%;
+
+}
+
+
+.responsive img:hover {
+  opacity: 0.5;
+}
+
+
+@media (min-width: 2000px) {
+  h1 {font-size: 4em;} 
+
+ 
+iframe {
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+}
+.page-app {
+    padding: 5%;
+
+}
+
+
+}
+
+
+@media (max-width: 1000px) {
+  h1 {font-size: 2em;} 
+  #map {width: 60%; height: 40%;}
+  
+iframe {
+  width: 1000px;
+  height: 800px;
+  margin: auto;
+}
+}
+
+
+
+@media (max-width: 600px) {
+  h1 {font-size: 2em;} 
+  #map {width: 60%; height: 40%;}
+  .page-home{background-image: url("https://image.ibb.co/kFDM4n/back_crop.jpg");}
+
+iframe {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
